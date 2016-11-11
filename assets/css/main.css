@@ -14,5 +14,48 @@ letter-spacing: 0.2px;
 }
 
 h1, h2, h3, h4, h5, h6 {
-font-family: 'Alegreya Sans', sans-serif;  
+font-family: 'Alegreya Sans', sans-serif;
+}
+
+.container {
+max-width: 900px;
+margin: 0 auto;
+}
+
+
+/* Main Top Navigation*/
+nav {
+background-color: #dadada;
+height: 40px;
+
+}
+
+.nav-list, .social-list {
+list-style: none;
+}
+
+.nav-list li, .social-list li {
+float: left;
+}
+
+
+.nav-list li a{
+color: white;
+text-decoration: none;
+
+}
+
+.nav-list li{
+  margin-right: 20px;
+}
+
+
+.nav-list{
+padding-top: 10px;
+
+
+}
+
+.social-list {
+float: right;
 }
