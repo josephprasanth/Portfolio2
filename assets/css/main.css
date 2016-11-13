@@ -1,3 +1,5 @@
+/*---- Red text colour value = #e46965 ,  grey text = #777*/
+
 @import url('https://fonts.googleapis.com/css?family=Alegreya+Sans');
 
 
@@ -15,6 +17,14 @@ letter-spacing: 0.2px;
 
 h1, h2, h3, h4, h5, h6 {
 font-family: 'Alegreya Sans', sans-serif;
+}
+
+h2 {
+color: #e46965;
+font-size: 40px;
+font-weight: normal;
+margin: 15px o;
+
 }
 
 .container {
@@ -52,10 +62,69 @@ text-decoration: none;
 
 .nav-list{
 padding-top: 10px;
-
+float: left;
 
 }
 
 .social-list {
 float: right;
+margin-top: 5px;
+}
+
+.social-list li {
+  margin-left: 20px;
+}
+
+
+/*-Header-*/
+header h1, header h3 {
+font-weight: normal;
+text-align: center;
+}
+
+header h1 {
+font-size: 44px;
+margin-top: 20px;
+margin-bottom: 10px;
+
+}
+header h3 {
+  color: #e46965;
+  font-size: 20px;
+}
+
+/*Feature section*/
+
+.feature {
+background-color: #363636;
+
+}
+
+.feature-list {
+list-style: none;
+background: url('../../assets/pictures/ship.jpg') top center no-repeat;
+height: 300px;
+}
+
+.feature-list li {
+width: 33.3333%;
+height: 300;
+float: left;
+border-left: 1px solid white;
+box-sizing: border-box;
+}
+
+.feature-list li:last-child {
+border-right: 1px solid white;
+
+}
+
+.feature-list li a {
+text-decoration: none;
+}
+
+.feature-title {
+color: white;
+opacity: 0.5;
+
 }
