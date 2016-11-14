@@ -112,6 +112,8 @@ height: 300;
 float: left;
 border-left: 1px solid white;
 box-sizing: border-box;
+text-align: center;
+padding-top: 100px;
 }
 
 .feature-list li:last-child {
@@ -126,5 +128,13 @@ text-decoration: none;
 .feature-title {
 color: white;
 opacity: 0.5;
+font-size: 20px;
+font-weight: normal;
+margin-top: 5px;
+
+}
+
+.feature-list li a:hover .feature-title {
+opacity: 1;
 
 }
