@@ -160,5 +160,20 @@ margin-right: 20px;
 
 .portfolio-list li:last-child {
 margin-right: 0;
+}
 
+.enliven {
+background: url('../pictures/enlivenlogo.jpg') center center no-repeat;
+}
+
+.m-c {
+background: url('../pictures/m-clogo.jpg') center center no-repeat;
+}
+
+.bitrapoint {
+background: url('../pictures/bitrapointlogo.jpg') -30px -20px no-repeat;
+}
+
+.neuro-slim {
+background: url('../pictures/n-slogo.jpg') center center no-repeat;
 }
