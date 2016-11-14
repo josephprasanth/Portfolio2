@@ -136,5 +136,29 @@ margin-top: 5px;
 
 .feature-list li a:hover .feature-title {
 opacity: 1;
+}
+
+
+
+/*--Portfolio styling*/
+
+.portfolio-samples {
+background-color: #dadada;
+}
+
+.portfolio-list {
+list-style: none;
+}
+
+.portfolio-list li {
+background-color: #555;
+width: 210px;
+height: 210px;
+float: left;
+margin-right: 20px;
+}
+
+.portfolio-list li:last-child {
+margin-right: 0;
 
 }
