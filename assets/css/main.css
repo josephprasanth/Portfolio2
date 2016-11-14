@@ -75,6 +75,14 @@ margin-top: 5px;
   margin-left: 20px;
 }
 
+.symbol {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 20px;
+      margin-bottom: 20px;
+
+}
 
 /*-Header-*/
 header h1, header h3 {
@@ -86,10 +94,11 @@ header h1 {
 font-size: 44px;
 margin-top: 20px;
 margin-bottom: 10px;
+color: back;
 
 }
 header h3 {
-  color: #e46965;
+ color: #e46965;
   font-size: 20px;
 }
 
@@ -222,8 +231,56 @@ margin: 10px 0;
 .col-one-third {
 width: 33%;
 float: left;
+}
+
+.footer-list dt {
+font-weight: bold;
+}
+
+.footer-list dd {
+margin-left: 0;
+margin-bottom: 20px;
+font-style: italic;
+}
+
+footer adress {
+  font-style: normal;
+}
+
+footer address a {
+color: #9d9d9d;
+text-decoration: none;
+font-style: italic;
+}
+
+footer address a:hover {
+text-decoration: underline;
+}
+
+footer .registration input {
+width: 100%;
+display: block;
+background-color: #363636;
+border: 1px solid #6d6d6d;
+color: #6d6d6d;
+padding: 10px;
+margin-bottom: 10px;
+font-size: 18px;
+box-sizing: border-box;
+}
+
+footer .registration button {
+background-color: #e46965;
+border: none;
+color: white;
+font-family: 'Alegreya Sans', sans-serif;
+font-size: 20px;
+width: 100%;
+box-sizing: border-box;
+padding: 10px;
 
 }
+
 
 /*Imported clearfix to fix line issue*/
 .clearfix:after {
