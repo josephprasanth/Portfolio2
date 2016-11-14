@@ -144,6 +144,8 @@ opacity: 1;
 
 .portfolio-samples {
 background-color: #dadada;
+padding: 5 0 20px 0;
+margin-top: 20px;
 }
 
 .portfolio-list {
@@ -156,6 +158,7 @@ width: 210px;
 height: 210px;
 float: left;
 margin-right: 20px;
+position: relative;
 }
 
 .portfolio-list li:last-child {
@@ -176,4 +179,52 @@ background: url('../pictures/bitrapointlogo.jpg') -30px -20px no-repeat;
 
 .neuro-slim {
 background: url('../pictures/n-slogo.jpg') center center no-repeat;
+}
+
+
+.portfolio-list li span {
+postion: absolute;
+box-sizing: border-box;
+bottom: 0;
+width: 210px;
+height: 52px;
+background-color: rgba(0,0,0,0.5);
+padding: 7px;
+}
+
+.portfolio-list a {
+color: white;
+text-decoration: none;
+display: block;
+width: 105px;
+float: left;
+}
+
+.portfolio-list  .sicon {
+float: right;
+
+}
+
+
+
+/*Imported clearfix to fix line issue*/
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clearfix {
+    display: inline-block;
+}
+
+html[xmlns] .clearfix {
+    display: block;
+}
+
+* html .clearfix {
+    height: 1%;
 }
