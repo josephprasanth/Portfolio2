@@ -118,7 +118,7 @@ height: 300px;
 
 .feature-list li {
 width: 33.3333%;
-height: 300;
+height: 100%;
 float: left;
 border-left: 1px solid white;
 box-sizing: border-box;
@@ -193,7 +193,8 @@ background: url('../pictures/n-slogo.jpg') center center no-repeat;
 
 
 .portfolio-list li span {
-postion: absolute;
+position: absolute;
+display: block;
 box-sizing: border-box;
 bottom: 0;
 width: 210px;
