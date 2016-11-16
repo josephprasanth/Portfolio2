@@ -2,11 +2,12 @@
 <html>
 
 <head>
-    <meta name="viewport" content="width-device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="utf-8">
     <title>My Design Portfolio</title>
 
     <link rel="stylesheet" href="assets/css/main.css" type="text/css" />
+    <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
 </head>
 
 <body>
@@ -80,16 +81,16 @@
             <h2>Portfolio</h2>
             <ul class="portfolio-list clearfix">
                 <li class="enliven">
-                    <span class="caption"><a href="#">Enliven.co</a><img class="sicon" src="assets/pictures/...."/></span>
+                    <span class="caption"><a href="#">Enliven.co</a><img class="sicon" src="assets/pictures/wicon2.png"/></span>
                 </li>
                 <li class="m-c">
                     <span class="caption"><a href="#">Millionaire-Creator.com</a><img class="sicon" src="assets/pictures/wicon2.png"/></span>
                 </li>
                 <li class="bitrapoint">
-                    <span class="caption"><a href="#">Bitrapoint.com</a><img class="sicon" src="assets/pictures/...."/></span>
+                    <span class="caption"><a href="#">Bitrapoint.com</a><img class="sicon" src="assets/pictures/wicon2.png"/></span>
                 </li>
                 <li class="neuro-slim">
-                    <span class="caption"><a href="#">Neuro-slim.com</a><img class="sicon" src="assets/pictures/...."/></span>
+                    <span class="caption"><a href="#">Neuro-slim.com</a><img class="sicon" src="assets/pictures/wicon2.png"/></span>
                 </li>
             </ul>
         </div>
@@ -144,7 +145,30 @@
         <!--container-->
         <span class="copyright">&copy;copyright 2016, Prasanth Joseph Portfolio</span>
     </footer>
+    <script>
+        $(function() {
+            $nav = $('.nav-list');
 
+            $('.menu-icon').click(function() {
+                $nav.slideToggle();
+            });
+            $(window).resize(function() {
+                if ($(window).width() >= 640) {
+                    $nav.show();
+                } else {
+                    $nav.hide();
+                }
+            });
+
+
+        });
+    </script>
+
+</body>
+
+</html>
+ide(); } }); });
+</script>
 
 </body>
 

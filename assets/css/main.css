@@ -399,5 +399,11 @@ html[xmlns] .clearfix {
         .feature-m {
             background-position: top right;
         }
+
+.col-one-third {
+  float: none;
+  width: 100%;
+}
+
     }
 }
