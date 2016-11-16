@@ -118,7 +118,7 @@ height: 300px;
 
 .feature-list li {
 width: 33.3333%;
-height: 300;
+height: 100%;
 float: left;
 border-left: 1px solid white;
 box-sizing: border-box;
@@ -184,7 +184,7 @@ background: url('../pictures/m-clogo.jpg') center center no-repeat;
 }
 
 .bitrapoint {
-background: url('../pictures/bitrapointlogo.jpg') -30px -20px no-repeat;
+background: url('../pictures/bitrapointlogo.jpg') center center no-repeat;
 }
 
 .neuro-slim {
@@ -193,7 +193,8 @@ background: url('../pictures/n-slogo.jpg') center center no-repeat;
 
 
 .portfolio-list li span {
-postion: absolute;
+position: absolute;
+display: block;
 box-sizing: border-box;
 bottom: 0;
 width: 210px;
@@ -317,4 +318,49 @@ html[xmlns] .clearfix {
 
 * html .clearfix {
     height: 1%;
+}
+
+
+
+
+
+
+
+
+/*Responsive Styles*/
+
+@media (max-width: 899px) {
+.container {
+padding: 0 10px;
+}
+
+.feature-list {
+margin: 0 10px;
+padding: 0;
+}
+
+.portfolio-list {
+width: 100%;
+}
+
+.portfolio-list li {
+width: 25%;
+padding: 0;
+margin: 0;
+}
+
+.portfolio-list li span {
+width: 100%;
+}
+
+@media (max-width: 640px) {
+.portfolio-list li {
+float: none;
+width: 100%;
+margin-top: 10px;
+}
+}
+
+
+
 }
