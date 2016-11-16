@@ -1,304 +1,295 @@
 /*---- Red text colour value = #e46965 ,  grey text = #777*/
 
 @import url('https://fonts.googleapis.com/css?family=Alegreya+Sans');
-
-
-html, body, ul , li, h1, h2, h3 ,h4, h5, h6, img, p {
-color: #777;
-font-family: Arial, Helvetica, sans-serif;
-margin: 0;
-padding: 0;
+html, body, ul, li, h1, h2, h3, h4, h5, h6, img, p {
+    color: #777;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-body{
-font-size: 14px;
-letter-spacing: 0.2px;
+body {
+    font-size: 14px;
+    letter-spacing: 0.2px;
 }
 
 h1, h2, h3, h4, h5, h6 {
-font-family: 'Alegreya Sans', sans-serif;
+    font-family: 'Alegreya Sans', sans-serif;
 }
 
 h2 {
-color: #e46965;
-font-size: 40px;
-font-weight: normal;
-margin: 15px o;
-
+    color: #e46965;
+    font-size: 40px;
+    font-weight: normal;
+    margin: 15px o;
 }
 
 .container {
-max-width: 900px;
-margin: 0 auto;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 
 /* Main Top Navigation*/
-nav {
-background-color: #dadada;
-height: 40px;
 
+nav {
+    background-color: #dadada;
+    height: 40px;
+}
+
+.menu-icon {
+    display: none;
 }
 
 .nav-list, .social-list {
-list-style: none;
+    list-style: none;
 }
 
 .nav-list li, .social-list li {
-float: left;
+    float: left;
 }
 
-
-.nav-list li a{
-color: white;
-text-decoration: none;
-
+.nav-list li a {
+    color: white;
+    text-decoration: none;
 }
 
-.nav-list li{
-  margin-right: 20px;
+.nav-list li {
+    margin-right: 20px;
 }
 
-
-.nav-list{
-padding-top: 10px;
-float: left;
-
+.nav-list {
+    padding-top: 10px;
+    float: left;
 }
 
 .social-list {
-float: right;
-margin-top: 5px;
+    float: right;
+    margin-top: 5px;
 }
 
 .social-list li {
-  margin-left: 20px;
+    margin-left: 20px;
 }
 
 .symbol {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      margin-top: 20px;
-      margin-bottom: 20px;
-
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-/*-Header-*/
-header h1, header h3 {
 
-text-align: center;
+/*-Header-*/
+
+header h1, header h3 {
+    text-align: center;
 }
 
 header h1 {
-font-size: 44px;
-margin-top: 20px;
-margin-bottom: 10px;
-
-
+    font-size: 44px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
+
 header h3 {
-  font-weight: normal;
- color: #e46965;
-  font-size: 20px;
+    font-weight: normal;
+    color: #e46965;
+    font-size: 20px;
 }
+
 
 /*Feature section*/
 
 .feature {
-background-color: #363636;
-
+    background-color: #363636;
 }
 
 .feature-list {
-list-style: none;
-background: url('../../assets/pictures/12.jpg') top center no-repeat;
-height: 300px;
+    list-style: none;
+    background: url('../../assets/pictures/12.jpg') top center no-repeat;
+    height: 300px;
 }
 
 .feature-list li {
-width: 33.3333%;
-height: 100%;
-float: left;
-border-left: 1px solid white;
-box-sizing: border-box;
-text-align: center;
-padding-top: 100px;
+    width: 33.3333%;
+    height: 100%;
+    float: left;
+    border-left: 1px solid white;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 100px;
 }
 
 .feature-list li:last-child {
-border-right: 1px solid white;
-
+    border-right: 1px solid white;
 }
 
 .feature-list li a {
-text-decoration: none;
+    text-decoration: none;
 }
 
 .feature-title {
-color: white;
-opacity: 0.5;
-font-size: 20px;
-font-weight: normal;
-margin-top: 5px;
-
+    color: white;
+    opacity: 0.5;
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 5px;
 }
 
 .feature-list li a:hover .feature-title {
-opacity: 1;
+    opacity: 1;
 }
-
 
 
 /*--Portfolio styling*/
 
 .portfolio-samples {
-background-color: #dadada;
-padding: 5 0 20px 0;
-margin-top: 20px;
+    background-color: #dadada;
+    padding: 5 0 20px 0;
+    margin-top: 20px;
 }
 
 .portfolio-list {
-list-style: none;
+    list-style: none;
 }
 
 .portfolio-list li {
-background-color: #555;
-width: 210px;
-height: 210px;
-float: left;
-margin-right: 20px;
-position: relative;
+    background-color: #555;
+    width: 210px;
+    height: 210px;
+    float: left;
+    margin-right: 20px;
+    position: relative;
 }
 
 .portfolio-list li:last-child {
-margin-right: 0;
+    margin-right: 0;
 }
 
 .enliven {
-background: url('../pictures/enlivenlogo.jpg') center center no-repeat;
+    background: url('../pictures/enlivenlogo.jpg') center center no-repeat;
 }
 
 .m-c {
-background: url('../pictures/m-clogo.jpg') center center no-repeat;
+    background: url('../pictures/m-clogo.jpg') center center no-repeat;
 }
 
 .bitrapoint {
-background: url('../pictures/bitrapointlogo.jpg') center center no-repeat;
+    background: url('../pictures/bitrapointlogo.jpg') center center no-repeat;
 }
 
 .neuro-slim {
-background: url('../pictures/n-slogo.jpg') center center no-repeat;
+    background: url('../pictures/n-slogo.jpg') center center no-repeat;
 }
 
-
 .portfolio-list li span {
-position: absolute;
-display: block;
-box-sizing: border-box;
-bottom: 0;
-width: 210px;
-height: 52px;
-background-color: rgba(0,0,0,0.5);
-padding: 7px;
+    position: absolute;
+    display: block;
+    box-sizing: border-box;
+    bottom: 0;
+    width: 210px;
+    height: 52px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 7px;
 }
 
 .portfolio-list a {
-color: white;
-text-decoration: none;
-display: block;
-width: 105px;
-float: left;
+    color: white;
+    text-decoration: none;
+    display: block;
+    width: 105px;
+    float: left;
 }
 
-.portfolio-list  .sicon {
-float: right;
-
+.portfolio-list .sicon {
+    float: right;
 }
+
 
 /*--- footer */
+
 footer {
-background-color: #252525;
-color: #9d9d9d;
-padding: 20px 0 60px 0;
-position: relative;
+    background-color: #252525;
+    color: #9d9d9d;
+    padding: 20px 0 60px 0;
+    position: relative;
 }
 
 footer h3 {
-color: #e46965;
-font-size: 30px;
-font-weight: normal;
-margin: 10px 0;
+    color: #e46965;
+    font-size: 30px;
+    font-weight: normal;
+    margin: 10px 0;
 }
 
 .col-one-third {
-width: 33%;
-float: left;
+    width: 33%;
+    float: left;
 }
 
 .footer-list dt {
-font-weight: bold;
+    font-weight: bold;
 }
 
 .footer-list dd {
-margin-left: 0;
-margin-bottom: 20px;
-font-style: italic;
+    margin-left: 0;
+    margin-bottom: 20px;
+    font-style: italic;
 }
 
 footer adress {
-  font-style: normal;
+    font-style: normal;
 }
 
 footer address a {
-color: #9d9d9d;
-text-decoration: none;
-font-style: italic;
+    color: #9d9d9d;
+    text-decoration: none;
+    font-style: italic;
 }
 
 footer address a:hover {
-text-decoration: underline;
+    text-decoration: underline;
 }
 
 footer .registration input {
-width: 100%;
-display: block;
-background-color: #363636;
-border: 1px solid #6d6d6d;
-color: #6d6d6d;
-padding: 10px;
-margin-bottom: 10px;
-font-size: 18px;
-box-sizing: border-box;
+    width: 100%;
+    display: block;
+    background-color: #363636;
+    border: 1px solid #6d6d6d;
+    color: #6d6d6d;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    box-sizing: border-box;
 }
 
 footer .registration button {
-background-color: #e46965;
-border: none;
-color: white;
-font-family: 'Alegreya Sans', sans-serif;
-font-size: 20px;
-width: 100%;
-box-sizing: border-box;
-padding: 10px;
+    background-color: #e46965;
+    border: none;
+    color: white;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
 }
 
 footer .copyright {
-width: 100%;
-display: block;
-background-color: black;
-color: #555;
-text-align: center;
-padding: 20px 0;
-position: absolute;
-bottom: 0;
-
+    width: 100%;
+    display: block;
+    background-color: black;
+    color: #555;
+    text-align: center;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
 }
 
 
-
-
 /*Imported clearfix to fix line issue*/
+
 .clearfix:after {
     content: ".";
     display: block;
@@ -321,46 +312,92 @@ html[xmlns] .clearfix {
 }
 
 
-
-
-
-
-
-
 /*Responsive Styles*/
 
 @media (max-width: 899px) {
-.container {
-padding: 0 10px;
-}
-
-.feature-list {
-margin: 0 10px;
-padding: 0;
-}
-
-.portfolio-list {
-width: 100%;
-}
-
-.portfolio-list li {
-width: 25%;
-padding: 0;
-margin: 0;
-}
-
-.portfolio-list li span {
-width: 100%;
-}
-
-@media (max-width: 640px) {
-.portfolio-list li {
-float: none;
-width: 100%;
-margin-top: 10px;
-}
-}
-
-
-
+    .container {
+        padding: 0 10px;
+    }
+    .feature-list {
+        margin: 0 10px;
+        padding: 0;
+    }
+    .portfolio-list {
+        width: 100%;
+    }
+    .portfolio-list li {
+        width: 25%;
+        padding: 0;
+        margin: 0;
+    }
+    .portfolio-list li span {
+        width: 100%;
+    }
+    @media (max-width: 640px) {
+        .menu-icon {
+            display: block;
+            padding-top: 6px;
+            cursor: pointer;
+        }
+        .nav-list {
+            display: none;
+            background-color: #aaa;
+            width: 100%;
+            padding: 10px;
+            margin-top: 6px;
+            margin-bottom: 0;
+            position: relative;
+            left: -10px;
+        }
+        .nav-list li {
+            display: block;
+            float: none;
+            margin-bottom: 20px;
+        }
+        .social-list {
+            position: absolute;
+            top: 0px;
+            right: 10px;
+        }
+        .portfolio-list li {
+            float: none;
+            width: 100%;
+            margin-top: 10px;
+        }
+        .feature-list {
+            background: none;
+            width: 100%;
+            margin: 0;
+            height: auto;
+        }
+        .feature-list li {
+            background-image: url('../../assets/pictures/12.jpg');
+            float: none;
+            height: 120px;
+            border-right: none !important;
+            border-left: none;
+            border-bottom: 1px solid white;
+            width: 100%;
+            text-align: left;
+            padding: 0;
+            margin: 0 !important;
+        }
+        .feature-icon {
+            float: left;
+            margin: 28px 20px 0 10px;
+        }
+        .feature-title {
+            line-height: 120px;
+            margin: 0;
+        }
+        .feature-b {
+            background-position: top left;
+        }
+        .feature-s {
+            background-position: center right;
+        }
+        .feature-m {
+            background-position: top right;
+        }
+    }
 }
