@@ -4,9 +4,13 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="utf-8">
-    <title>My Design Portfolio</title>
+    <meta name="keywords" content="Prasanth joseph, Front End Developer, Front End Utvecklare, KYH, webdesign, Javascript , Jquery , html css">
+    <title>Prasanth joseph | Front End Developer</title>
+
 
     <link rel="stylesheet" href="assets/css/main.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/clock.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/clock1.css" type="text/css" />
 
 </head>
 
@@ -27,13 +31,13 @@
             </ul>
             <ul class="social-list">
                 <li>
-                    <a href="https://api.linkedin.com/v1/people/~/shares?format=json"><img src="assets/pictures/linkedinicon.png" alt="Linkedin" /></a>
+                    <a href="https://www.linkedin.com/in/joseph-prasanth-3b2858a9"><img src="assets/pictures/linkedinicon.png" alt="Linkedin" /></a>
                 </li>
                 <li>
-                    <a href="#"><img src="assets/pictures/facebookicon.png" alt="Facebook" /></a>
+                    <a href="https://www.facebook.com/millionairecreatorprotocols/"><img src="assets/pictures/facebookicon.png" alt="Facebook" /></a>
                 </li>
                 <li>
-                    <a href="#"><img src="assets/pictures/twitter-logo-button24.png" alt="Twitter" /> </a>
+                    <a href="https://twitter.com/themindlord"><img src="assets/pictures/twitter-logo-button24.png" alt="Twitter" /> </a>
                 </li>
             </ul>
         </div>
@@ -78,19 +82,19 @@
 
     <section class="portfolio-samples">
         <div class="container">
-            <h2>Portfolio</h2>
+            <h2>Portfolio Of Sites I Built And Branded</h2>
             <ul class="portfolio-list clearfix">
                 <li class="enliven">
-                    <span class="caption"><a href="#">Enliven.co</a><img class="sicon" src="assets/pictures/wicon2.png"/></span>
+                    <span class="caption"><a href="https://www.enliven.co/">Enliven.co</a><img class="sicon" src="assets/pictures/wicon2.png"/></span>
                 </li>
                 <li class="m-c">
-                    <span class="caption"><a href="#">Millionaire-Creator.com</a><img class="sicon" src="assets/pictures/wicon2.png"/></span>
+                    <span class="caption"><a href="http://www.millionaire-creator.com/">Millionaire-Creator.com</a><img class="sicon" src="assets/pictures/wicon2.png"/></span>
                 </li>
                 <li class="bitrapoint">
-                    <span class="caption"><a href="#">Bitrapoint.com</a><img class="sicon" src="assets/pictures/wicon2.png"/></span>
+                    <span class="caption"><a href="http://www.bitrapoint.com/">Bitrapoint.com</a><img class="sicon" src="assets/pictures/wicon2.png"/></span>
                 </li>
                 <li class="neuro-slim">
-                    <span class="caption"><a href="#">Neuro-slim.com</a><img class="sicon" src="assets/pictures/wicon2.png"/></span>
+                    <span class="caption"><a href="http://neuro-slim.com/">Neuro-slim.com</a><img class="sicon" src="assets/pictures/wicon2.png"/></span>
                 </li>
             </ul>
         </div>
@@ -99,42 +103,41 @@
 
     <footer>
         <div class="container">
-            <div class="col-one-third">
-                <h3>From The M-C Blog</h3>
-                <dl class="footer-list">
-                    <dt>
-                    Top 3 Mistakes
-                  </dt>
-                    <dd>
-                        Feb 5th 2015
-                    </dd>
-                    <dt>
-                    Top 2 Mistakes
-                  </dt>
-                    <dd>
-                        Feb 5th 2015
-                    </dd>
-                    <dt>
-                    Top 6 Mistakes
-                  </dt>
-                    <dd>
-                        Feb 5th 2015
-                    </dd>
-                </dl>
-            </div>
-            <div class="col-one-third">
-                <h3>Contact me</h3>
-                <adress>Dekorstigen 9 <br/> Södertalje , Stockholm <br /> 15155 , Sweden
-                    <br/>
 
-                    </br/>
-                </adress>
+            <div class="col-one-third">
+                <h3>DeadLines</h3>
+                <div id="del-countdown">
+                  <h3>Time Left For LIA</h3>
+                  <div id="clock"></div>
+                  <div id="units">
+                    <span>Days</span>
+                    <span>Hours</span>
+                    <span>Min</span>
+                    <span>Sec</span>
+                  </div>
+                  <h3>Time Left For Graduation</h3>
+                  <div id="clock1"></div>
+                  <div id="units">
+                    <span>Days</span>
+                    <span>Hours</span>
+                    <span>Min</span>
+                    <span>Sec</span>
+                  </div>
+
+                </div>
             </div>
+
+
+
+
+
             <div class="col-one-third registration">
                 <h3>Contact Me</h3>
                 <form>
                     <input type="text" id="name" placeholder="Name" />
                     <input type="text" id="email" placeholder="Email@address.com" />
+                    <input type="textbox" id="message2" placeholder="Your Message" />
+
                     <button type="submit">Send</button>
                 </form>
             </div>
@@ -146,7 +149,9 @@
         <span class="copyright">&copy;copyright 2016, Prasanth Joseph Portfolio</span>
     </footer>
     <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
-    <script src="assets/app.js"></script>
+    <script src="assets/js/expand.js"></script>
+    <script src="countdown.js"></script>
+
     <script>
         $(function() {
             $nav = $('.nav-list');

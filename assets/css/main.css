@@ -1,4 +1,4 @@
-/*---- Red text colour value = #e46965 ,  grey text = #777*/
+/*---- Index Page styles------ */
 
 @import url('https://fonts.googleapis.com/css?family=Alegreya+Sans');
 html, body, ul, li, h1, h2, h3, h4, h5, h6, img, p {
@@ -21,7 +21,13 @@ h2 {
     color: #e46965;
     font-size: 40px;
     font-weight: normal;
-    margin: 15px o;
+    margin: 10px 0 10px;
+}
+h3 {
+    margin: 10px 0 10px;
+}
+ul {
+    padding-left:15px;
 }
 
 .container {
@@ -107,9 +113,14 @@ header h3 {
 }
 
 .feature-list {
+	padding-left:0;
     list-style: none;
     background: url('../../assets/pictures/12.jpg') top center no-repeat;
     height: 300px;
+}
+
+.feature-list ul {
+	padding-left:0;
 }
 
 .feature-list li {
@@ -153,6 +164,7 @@ header h3 {
 
 .portfolio-list {
     list-style: none;
+	padding-left:0;
 }
 
 .portfolio-list li {
@@ -225,33 +237,10 @@ footer h3 {
 }
 
 .col-one-third {
-    width: 33%;
+    width: 50%;
     float: left;
 }
 
-.footer-list dt {
-    font-weight: bold;
-}
-
-.footer-list dd {
-    margin-left: 0;
-    margin-bottom: 20px;
-    font-style: italic;
-}
-
-footer adress {
-    font-style: normal;
-}
-
-footer address a {
-    color: #9d9d9d;
-    text-decoration: none;
-    font-style: italic;
-}
-
-footer address a:hover {
-    text-decoration: underline;
-}
 
 footer .registration input {
     width: 100%;
@@ -271,9 +260,14 @@ footer .registration button {
     color: white;
     font-family: 'Alegreya Sans', sans-serif;
     font-size: 20px;
-    width: 100%;
+    width: 70%;
     box-sizing: border-box;
     padding: 10px;
+}
+
+footer #message2 {
+height: 200px;
+width: 100%;
 }
 
 footer .copyright {
@@ -404,6 +398,38 @@ html[xmlns] .clearfix {
   float: none;
   width: 100%;
 }
+
+
+/*CV Page Styles*/
+
+#cv-main {
+padding-bottom: 40px;
+
+}
+
+
+
+
+.newt {
+color: green;
+
+}
+/*About Page Styles*/
+
+
+
+/*Exapnd.js function*/
+.hidden
+{display:none;
+
+}
+i {padding:15px;cursor:pointer;
+        }
+
+
+
+
+
 
     }
 }

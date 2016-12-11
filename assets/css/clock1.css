@@ -1,0 +1,45 @@
+#del-countdown{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#clock1 span{
+  float: left;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 0 1.5%;
+  color: #fff;
+  padding: 10px;
+  width: 20%;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+#clock1 span:nth-child(1){
+  background: #e46965;
+}
+#clock1 span:nth-child(2){
+  background: #e46965;
+}
+#clock1 span:nth-child(3){
+  background: #e46965;
+}
+#clock1 span:nth-child(4){
+  background: #e46965;
+}
+#clock1:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+#units span{
+  float: left;
+  width: 25%;
+  text-align: center;
+  margin-top: 20px;
+  color: #ddd;
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 1px rgba(10,10,10, 0.7);
+}
