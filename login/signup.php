@@ -1,20 +1,38 @@
 <?php
-session_start();
-include 'dbh.php';
-
-$first = $_POST['first'];
-$last = $_POST['last'];
-$uid = $_POST['uid'];
-$pwd = $_POST['pwd'];
-
-
-$sql = "INSERT INTO  user (first, last, uid, pwd)
-VALUES ('$first', '$last', '$uid', '$pwd') ";
-$result = $conn->query($sql);
-
-header("Location: index.php");
-
-
-
-
+include 'header.php';
  ?>
+
+<?php
+if (isset($_SESSION['id'])) {
+echo $_SESSION['id'];
+}
+
+else {
+echo "You are not logged in";
+}
+ ?>
+
+<br><br><br>
+<?php
+if (isset($_SESSION['id'])) {
+echo "You are already logged in";
+}
+
+else {
+echo "<form action='includes/signup.inc.php' method='POST'>
+<input type='text' name='first' placeholder='FirstName'><br>
+<input type='text' name='last' placeholder='LastName'><br>
+<input type='text' name='uid' placeholder='Username'><br>
+<input type='password' name='pwd' placeholder='Password'><br>
+<button type='SUBMIT'>SIGN UP</button>
+</form>";
+}
+?>
+
+
+
+
+<br><br><br>
+
+  </body>
+</html>
