@@ -35,10 +35,11 @@ else {
         }
 
         else {
+          $encrypted_password = password_hash($pwd, PASSWORD_DEFAULT);
           $sql = "INSERT INTO  user (first, last, uid, pwd)
-          VALUES ('$first', '$last', '$uid', '$pwd') ";
-          $result = $conn->query($sql);
-          header("Location: ../index.php");          
+          VALUES ('$first', '$last', '$uid', '$encrypted_password') ";
+          $result = mysqli_query($conn, $sql);
+          header("Location: ../index.php");
         }
 
 
