@@ -1,11 +1,7 @@
 <ul class="nav-list">
-    <li>
-        <a href="index.php">HOME</a>
-    </li>
-    <li>
-        <a href="cv.php">CV</a>
-    </li>
-    <li>
-        <a href="about.php">About</a>
-    </li>
+  <?php
+foreach ($navItems as $item) {
+echo "<li><a href=\"$item[slug]\">$item[title]</a></li>";
+}
+?>
 </ul>
