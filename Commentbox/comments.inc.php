@@ -20,6 +20,12 @@ echo $row['uid']."<br>";
 echo $row['date']."<br>";
 echo $row['message'];
 echo"</p>
+
+<form class='delete-form' method='POST' action='".deleteComments($conn)."'>
+<input type='hidden' name='cid' value='".$row['cid']."'>
+<button type='submit' name='commentDelete'>Delete</button>
+</form>
+
 <form class='edit-form' method='POST' action='editcomment.php'>
 <input type='hidden' name='cid' value='".$row['cid']."'>
 <input type='hidden' name='uid' value='".$row['uid']."'>
@@ -50,11 +56,12 @@ header("Location: index.php");
 }
 
 
-
-
-
-
-
-
-
+function deleteComments($conn) {
+  if (isset($_POST['commentDelete'])) {
+    $cid = $_POST['cid'];
+  $sql = "DELETE FROM comments WHERE cid='$cid'";
+  $result = mysqli_query($conn,$sql);
+  header("Location: index.php");
+}
+}
  ?>
