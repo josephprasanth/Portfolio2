@@ -35,20 +35,16 @@
 
             <div class="col-one-third registration">
                 <h3>Contact Me</h3>
-                <form>
-                    <input type="text" id="name" placeholder="Name" />
-                    <input type="text" id="email" placeholder="Email@address.com" />
-                    <input type="textbox" id="message2" placeholder="Your Message" />
-
-                    <button type="submit">Send</button>
-                </form>
+                <?php
+                include('includes/arrays.php');
+                 ?>
             </div>
             <div style="clear:both;">
             </div>
         </div>
         </div>
         <!--container-->
-        <span class="copyright">&copy;copyright 2016, Prasanth Joseph Portfolio</span>
+        <span class="copyright">&copy;copyright <?php echo date('Y');?>, Prasanth Joseph Portfolio</span>
     </footer>
     <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
     <script src="assets/js/expand.js" type="text/javascript"></script>
