@@ -36,7 +36,7 @@
             <div class="col-one-third registration">
                 <h3>Contact Me</h3>
                 <?php
-                include('includes/arrays.php');
+                include('includes/contact.php');
                  ?>
             </div>
             <div style="clear:both;">
