@@ -1,4 +1,9 @@
-<?php include('includes/header.php'); ?>
+<?php
+$query = "SELECT content FROM pages WHERE name = 'CV'";
+$result = mysqli_query($conn, $query);
+$content = mysqli_fetch_assoc($result);
+echo $content(['content']);
+?>
 
 
     <section id="cv-main">
@@ -66,7 +71,3 @@
         </article>
 
     </section>
-
-
-
-    <?php include('includes/footer.php');?>

@@ -71,20 +71,3 @@ if(!isset($_GET['page'])) $page = ""; else $page = $_GET['page'];
         <h1>PJ Design Portfolio</h1>
         <h3>DIGITAL MONETISATION SOLUTIONS FOR YOUR BUSINESS</h3>
     </header>
-    <section class="feature">
-        <ul class="feature-list container">
-            <li class="feature-b">
-                <a href="#"><img class="feature-icon" src="assets/pictures/branding.png" alt="B R A N D I N G" />
-                    <h3 class="feature-brand">B R A N D I N G</h3></a>
-            </li>
-            <li class="feature-s">
-                <a href="#"><img class="feature-icon" src="assets/pictures/seo.png" alt="S E O " />
-                    <h3 class="feature-seo">S E O</h3></a>
-            </li>
-            <li class="feature-m">
-                <a href="#"><img class="feature-icon" src="assets/pictures/marketing.png" alt="M A R K E T I N G" />
-                    <h3 class="feature-market">M A R K E T I N G</h3></a>
-            </li>
-        </ul>
-    </section>
-    <!----End of feature section-->

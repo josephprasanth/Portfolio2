@@ -1,8 +1,9 @@
-<?php include('includes/header.php'); ?>
-
-
-
-
+<?php
+$query = "SELECT content FROM pages WHERE name = 'about'";
+$result = mysqli_query($conn, $query);
+$content = mysqli_fetch_assoc($result);
+echo $content(['content']);
+?>
 
     <div id="wrapper">
         <article class="body-text container">
@@ -29,9 +30,3 @@
 
         </div>
     </div>
-
-
-
-
-
-    <?php include('includes/footer.php');?>

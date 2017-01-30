@@ -433,3 +433,24 @@ i {padding:15px;cursor:pointer;
 
     }
 }
+
+
+
+
+
+.expand, .backdraft {
+  cursor: pointer;
+  text-align: center;
+  max-width: 600px;
+  display: block !important;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.expand:hover, .backdraft:hover {
+  color: #ff5400;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+}
+
+.hide {
+  display: none;
+}

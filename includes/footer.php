@@ -46,9 +46,11 @@
         <!--container-->
         <span class="copyright">&copy;copyright <?php echo date('Y');?>, Prasanth Joseph Portfolio</span>
     </footer>
-    <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
-    <script src="assets/js/expand.js" type="text/javascript"></script>
+
     <script src="assets/js/countdown.js" type="text/javascript"></script>
+
+    <script src="assets/js/expand.js" type="text/javascript"></script>
+
 
     <script>
         $(function() {

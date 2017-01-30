@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="hangman.css">
+  </head>
+  <body>
+    <h1>Hangman<br>
+  Your favorite classroom pastime returns!</h1>
+<p id="ratefeld"></p>
+<form name="rateformular">
+<input name="ratezeichen" type="text" size="5" maxlength="1">
+<input name="ratebutton" type="button" value="Guess" onClick="pruefeZeichen()">
+
+<p id="gerateneBuchstaben">Wrong Letters:</p>
+<img src="http://www.writteninpencil.de/Projekte/Hangman/hangman0.png" id="hangman"><br />
+<input name="refresh" type="button" value="New Game" onClick="location.reload()">
+</form>
+<script src='hangman.js'></script>
+<script src='jquery.min.js'></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  </body>
+</html>

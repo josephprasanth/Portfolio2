@@ -1,3 +1,16 @@
+function countdown(){
+var deadline = new Date("January 15, 2018 17:15:00");
+startTimer("clock", deadline);
+
+var deadline1 = new Date("May 31, 2018 17:15:00");
+startTimer("clock1", deadline1);
+}
+
+$(document).ready(countdown);
+
+
+
+
 function updateTimer(deadline){
   var time = deadline - new Date();
   return {
@@ -43,12 +56,3 @@ function startTimer(id, deadline){
 
   }, 1000);
 }
-
-
-window.onload = function(){
-  var deadline = new Date("January 15, 2018 17:15:00");
-  startTimer("clock", deadline);
-
-  var deadline1 = new Date("May 31, 2018 17:15:00");
-  startTimer("clock1", deadline1);
-};
